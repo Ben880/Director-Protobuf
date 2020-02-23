@@ -25,8 +25,8 @@ namespace DirectorProtobuf {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CgpEYXRhLnByb3RvEhBEaXJlY3RvclByb3RvYnVmIiMKBERhdGESDAoEbmFt",
-            "ZRgBIAEoCRINCgV2YWx1ZRgCIAEoAiIwCghEYXRhTGlzdBIkCgRkYXRhGAEg",
-            "AygLMhYuRGlyZWN0b3JQcm90b2J1Zi5EYXRhYgZwcm90bzM="));
+            "ZRgBIAIoCRINCgV2YWx1ZRgCIAIoAiIwCghEYXRhTGlzdBIkCgRkYXRhGAEg",
+            "AygLMhYuRGlyZWN0b3JQcm90b2J1Zi5EYXRh"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -41,6 +41,7 @@ namespace DirectorProtobuf {
   public sealed partial class Data : pb::IMessage<Data> {
     private static readonly pb::MessageParser<Data> _parser = new pb::MessageParser<Data>(() => new Data());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pb::MessageParser<Data> Parser { get { return _parser; } }
 
@@ -63,6 +64,7 @@ namespace DirectorProtobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Data(Data other) : this() {
+      _hasBits0 = other._hasBits0;
       name_ = other.name_;
       value_ = other.value_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -75,24 +77,49 @@ namespace DirectorProtobuf {
 
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 1;
-    private string name_ = "";
+    private readonly static string NameDefaultValue = "";
+
+    private string name_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
-      get { return name_; }
+      get { return name_ ?? NameDefaultValue; }
       set {
         name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
+    /// <summary>Gets whether the "name" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool HasName {
+      get { return name_ != null; }
+    }
+    /// <summary>Clears the value of the "name" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearName() {
+      name_ = null;
+    }
 
     /// <summary>Field number for the "value" field.</summary>
     public const int ValueFieldNumber = 2;
+    private readonly static float ValueDefaultValue = 0F;
+
     private float value_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float Value {
-      get { return value_; }
+      get { if ((_hasBits0 & 1) != 0) { return value_; } else { return ValueDefaultValue; } }
       set {
+        _hasBits0 |= 1;
         value_ = value;
       }
+    }
+    /// <summary>Gets whether the "value" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool HasValue {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "value" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearValue() {
+      _hasBits0 &= ~1;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -116,8 +143,8 @@ namespace DirectorProtobuf {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (Value != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Value);
+      if (HasName) hash ^= Name.GetHashCode();
+      if (HasValue) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Value);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -131,11 +158,11 @@ namespace DirectorProtobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Name.Length != 0) {
+      if (HasName) {
         output.WriteRawTag(10);
         output.WriteString(Name);
       }
-      if (Value != 0F) {
+      if (HasValue) {
         output.WriteRawTag(21);
         output.WriteFloat(Value);
       }
@@ -147,10 +174,10 @@ namespace DirectorProtobuf {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Name.Length != 0) {
+      if (HasName) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
-      if (Value != 0F) {
+      if (HasValue) {
         size += 1 + 4;
       }
       if (_unknownFields != null) {
@@ -164,10 +191,10 @@ namespace DirectorProtobuf {
       if (other == null) {
         return;
       }
-      if (other.Name.Length != 0) {
+      if (other.HasName) {
         Name = other.Name;
       }
-      if (other.Value != 0F) {
+      if (other.HasValue) {
         Value = other.Value;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
