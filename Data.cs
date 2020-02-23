@@ -24,14 +24,13 @@ namespace DirectorProtobuf {
     static DataReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "CgpEYXRhLnByb3RvEhBEaXJlY3RvclByb3RvYnVmIjgKBERhdGESDAoEbmFt",
-            "ZRgBIAEoCRINCgV2YWx1ZRgCIAEoAhITCgtsYXN0dXBkYXRlZBgDIAEoAiIw",
-            "CghEYXRhTGlzdBIkCgRkYXRhGAEgAygLMhYuRGlyZWN0b3JQcm90b2J1Zi5E",
-            "YXRhYgZwcm90bzM="));
+            "CgpEYXRhLnByb3RvEhBEaXJlY3RvclByb3RvYnVmIiMKBERhdGESDAoEbmFt",
+            "ZRgBIAEoCRINCgV2YWx1ZRgCIAEoAiIwCghEYXRhTGlzdBIkCgRkYXRhGAEg",
+            "AygLMhYuRGlyZWN0b3JQcm90b2J1Zi5EYXRhYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::DirectorProtobuf.Data), global::DirectorProtobuf.Data.Parser, new[]{ "Name", "Value", "Lastupdated" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::DirectorProtobuf.Data), global::DirectorProtobuf.Data.Parser, new[]{ "Name", "Value" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DirectorProtobuf.DataList), global::DirectorProtobuf.DataList.Parser, new[]{ "Data" }, null, null, null, null)
           }));
     }
@@ -66,7 +65,6 @@ namespace DirectorProtobuf {
     public Data(Data other) : this() {
       name_ = other.name_;
       value_ = other.value_;
-      lastupdated_ = other.lastupdated_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -97,17 +95,6 @@ namespace DirectorProtobuf {
       }
     }
 
-    /// <summary>Field number for the "lastupdated" field.</summary>
-    public const int LastupdatedFieldNumber = 3;
-    private float lastupdated_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Lastupdated {
-      get { return lastupdated_; }
-      set {
-        lastupdated_ = value;
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Data);
@@ -123,7 +110,6 @@ namespace DirectorProtobuf {
       }
       if (Name != other.Name) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Value, other.Value)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Lastupdated, other.Lastupdated)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -132,7 +118,6 @@ namespace DirectorProtobuf {
       int hash = 1;
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Value != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Value);
-      if (Lastupdated != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Lastupdated);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -154,10 +139,6 @@ namespace DirectorProtobuf {
         output.WriteRawTag(21);
         output.WriteFloat(Value);
       }
-      if (Lastupdated != 0F) {
-        output.WriteRawTag(29);
-        output.WriteFloat(Lastupdated);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -170,9 +151,6 @@ namespace DirectorProtobuf {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (Value != 0F) {
-        size += 1 + 4;
-      }
-      if (Lastupdated != 0F) {
         size += 1 + 4;
       }
       if (_unknownFields != null) {
@@ -192,9 +170,6 @@ namespace DirectorProtobuf {
       if (other.Value != 0F) {
         Value = other.Value;
       }
-      if (other.Lastupdated != 0F) {
-        Lastupdated = other.Lastupdated;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -212,10 +187,6 @@ namespace DirectorProtobuf {
           }
           case 21: {
             Value = input.ReadFloat();
-            break;
-          }
-          case 29: {
-            Lastupdated = input.ReadFloat();
             break;
           }
         }
