@@ -1,0 +1,15 @@
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\bin\Debug\net45\Google.Protobuf.dll
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\bin\Debug\net45\Google.Protobuf.pdb
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\bin\Debug\net45\Google.Protobuf.xml
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\bin\Debug\net45\System.Buffers.dll
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\bin\Debug\net45\System.Memory.dll
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\bin\Debug\net45\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\obj\Debug\net45\Google.Protobuf.csprojAssemblyReference.cache
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\obj\Debug\net45\Google.Protobuf.csproj.CoreCompileInputs.cache
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\obj\Debug\net45\Google.Protobuf.sourcelink.json
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\obj\Debug\net45\Google.Protobuf.AssemblyInfoInputs.cache
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\obj\Debug\net45\Google.Protobuf.AssemblyInfo.cs
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\obj\Debug\net45\Google.Protobuf.csproj.CopyComplete
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\obj\Debug\net45\Google.Protobuf.dll
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\obj\Debug\net45\Google.Protobuf.xml
+C:\Users\bwilcox\Desktop\School\SP2\protobuf-3.11.4\csharp\src\Google.Protobuf\obj\Debug\net45\Google.Protobuf.pdb

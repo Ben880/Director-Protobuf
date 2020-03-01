@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\bwilcox\.nuget\packages\microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\bwilcox\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\bwilcox\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\bwilcox\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.api.dll" t="Include" />
+    <e p="C:\Users\bwilcox\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.dll" t="Include" />
+    <e p="C:\Users\bwilcox\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\bwilcox\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\bwilcox\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\bwilcox\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\bwilcox\Desktop\School\SP2\Protobuf\DirectorProtobuf" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Compile" t="Include">
+        <e p="addCommitPush.bat" t="Include" />
+        <e p="build" t="Include">
+          <e p="Director-Protobuf" t="Include">
+            <e p="Data.cs" t="Include" />
+          </e>
+        </e>
+        <e p="compile.bat" t="Include" />
+        <e p="compileGit.bat" t="Include" />
+        <e p="DST_DIR.txt" t="Include" />
+        <e p="EXE_DIR.txt" t="Include" />
+        <e p="FILE_PATH.txt" t="Include" />
+        <e p="GIT_REPLINK.txt" t="Include" />
+        <e p="IMPORT_PATH.txt" t="Include" />
+        <e p="MAIN_DIR.txt" t="Include" />
+        <e p="protoc-3.11.4-win64" t="Include">
+          <e p="bin" t="Include">
+            <e p="protoc.exe" t="Include" />
+          </e>
+          <e p="include" t="Include">
+            <e p="google" t="Include">
+              <e p="Protobuf" t="Include">
+                <e p="any.proto" t="Include" />
+                <e p="api.proto" t="Include" />
+                <e p="compiler" t="Include">
+                  <e p="plugin.proto" t="Include" />
+                </e>
+                <e p="descriptor.proto" t="Include" />
+                <e p="duration.proto" t="Include" />
+                <e p="empty.proto" t="Include" />
+                <e p="field_mask.proto" t="Include" />
+                <e p="source_context.proto" t="Include" />
+                <e p="struct.proto" t="Include" />
+                <e p="timestamp.proto" t="Include" />
+                <e p="type.proto" t="Include" />
+                <e p="wrappers.proto" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="readme.txt" t="Include" />
+        </e>
+        <e p="pull.bat" t="Include" />
+      </e>
+      <e p="data.proto" t="Include" />
+      <e p="DirectorProtobuf.csproj" t="IncludeRecursive" />
+      <e p="Google.Protobuf" t="Include">
+        <e p="bin" t="Include">
+          <e p="Debug" t="Include">
+            <e p="net45" t="Include">
+              <e p="Google.Protobuf.dll" t="Include" />
+              <e p="Google.Protobuf.pdb" t="Include" />
+              <e p="Google.Protobuf.xml" t="Include" />
+              <e p="System.Buffers.dll" t="Include" />
+              <e p="System.Memory.dll" t="Include" />
+              <e p="System.Runtime.CompilerServices.Unsafe.dll" t="Include" />
+            </e>
+            <e p="netstandard1.0" t="Include">
+              <e p="Google.Protobuf.deps.json" t="Include" />
+              <e p="Google.Protobuf.dll" t="Include" />
+              <e p="Google.Protobuf.pdb" t="Include" />
+              <e p="Google.Protobuf.xml" t="Include" />
+            </e>
+            <e p="netstandard2.0" t="Include">
+              <e p="Google.Protobuf.deps.json" t="Include" />
+              <e p="Google.Protobuf.dll" t="Include" />
+              <e p="Google.Protobuf.pdb" t="Include" />
+              <e p="Google.Protobuf.xml" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ByteArray.cs" t="Include" />
+        <e p="ByteString.cs" t="Include" />
+        <e p="CodedInputStream.cs" t="Include" />
+        <e p="CodedOutputStream.ComputeSize.cs" t="Include" />
+        <e p="CodedOutputStream.cs" t="Include" />
+        <e p="Collections" t="Include">
+          <e p="Lists.cs" t="Include" />
+          <e p="MapField.cs" t="Include" />
+          <e p="ProtobufEqualityComparers.cs" t="Include" />
+          <e p="ReadOnlyDictionary.cs" t="Include" />
+          <e p="RepeatedField.cs" t="Include" />
+        </e>
+        <e p="Compatibility" t="Include">
+          <e p="MethodInfoExtensions.cs" t="Include" />
+          <e p="PropertyInfoExtensions.cs" t="Include" />
+          <e p="StreamExtensions.cs" t="Include" />
+          <e p="TypeExtensions.cs" t="Include" />
+        </e>
+        <e p="Data.cs" t="Include" />
+        <e p="Extension.cs" t="Include" />
+        <e p="ExtensionRegistry.cs" t="Include" />
+        <e p="ExtensionSet.cs" t="Include" />
+        <e p="ExtensionValue.cs" t="Include" />
+        <e p="FieldCodec.cs" t="Include" />
+        <e p="FieldMaskTree.cs" t="Include" />
+        <e p="FrameworkPortability.cs" t="Include" />
+        <e p="ICustomDiagnosticMessage.cs" t="Include" />
+        <e p="IDeepCloneable.cs" t="Include" />
+        <e p="IExtendableMessage.cs" t="Include" />
+        <e p="IMessage.cs" t="Include" />
+        <e p="InvalidJsonException.cs" t="Include" />
+        <e p="InvalidProtocolBufferException.cs" t="Include" />
+        <e p="JsonFormatter.cs" t="Include" />
+        <e p="JsonParser.cs" t="Include" />
+        <e p="JsonToken.cs" t="Include" />
+        <e p="JsonTokenizer.cs" t="Include" />
+        <e p="LimitedInputStream.cs" t="Include" />
+        <e p="MessageExtensions.cs" t="Include" />
+        <e p="MessageParser.cs" t="Include" />
+        <e p="obj" t="Include">
+          <e p="Debug" t="Include">
+            <e p="net45" t="Include">
+              <e p="Google.Protobuf.AssemblyInfo.cs" t="Include" />
+              <e p="Google.Protobuf.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Google.Protobuf.assets.cache" t="Include" />
+              <e p="Google.Protobuf.csproj.CopyComplete" t="Include" />
+              <e p="Google.Protobuf.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="Google.Protobuf.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="Google.Protobuf.csprojAssemblyReference.cache" t="Include" />
+              <e p="Google.Protobuf.dll" t="Include" />
+              <e p="Google.Protobuf.pdb" t="Include" />
+              <e p="Google.Protobuf.sourcelink.json" t="Include" />
+              <e p="Google.Protobuf.xml" t="Include" />
+            </e>
+            <e p="netstandard1.0" t="Include">
+              <e p="Google.Protobuf.AssemblyInfo.cs" t="Include" />
+              <e p="Google.Protobuf.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Google.Protobuf.assets.cache" t="Include" />
+              <e p="Google.Protobuf.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="Google.Protobuf.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="Google.Protobuf.csprojAssemblyReference.cache" t="Include" />
+              <e p="Google.Protobuf.dll" t="Include" />
+              <e p="Google.Protobuf.pdb" t="Include" />
+              <e p="Google.Protobuf.sourcelink.json" t="Include" />
+              <e p="Google.Protobuf.xml" t="Include" />
+            </e>
+            <e p="netstandard2.0" t="Include">
+              <e p="Google.Protobuf.AssemblyInfo.cs" t="Include" />
+              <e p="Google.Protobuf.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Google.Protobuf.assets.cache" t="Include" />
+              <e p="Google.Protobuf.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="Google.Protobuf.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="Google.Protobuf.csprojAssemblyReference.cache" t="Include" />
+              <e p="Google.Protobuf.dll" t="Include" />
+              <e p="Google.Protobuf.pdb" t="Include" />
+              <e p="Google.Protobuf.sourcelink.json" t="Include" />
+              <e p="Google.Protobuf.xml" t="Include" />
+            </e>
+          </e>
+          <e p="Google.Protobuf.csproj.nuget.cache" t="Include" />
+          <e p="Google.Protobuf.csproj.nuget.dgspec.json" t="Include" />
+          <e p="Google.Protobuf.csproj.nuget.g.props" t="Include" />
+          <e p="Google.Protobuf.csproj.nuget.g.targets" t="Include" />
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+        </e>
+        <e p="ObjectIntPair.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ProtoPreconditions.cs" t="Include" />
+        <e p="Reflection" t="Include">
+          <e p="CustomOptions.cs" t="Include" />
+          <e p="Descriptor.cs" t="Include" />
+          <e p="DescriptorBase.cs" t="Include" />
+          <e p="DescriptorDeclaration.cs" t="Include" />
+          <e p="DescriptorPool.cs" t="Include" />
+          <e p="DescriptorUtil.cs" t="Include" />
+          <e p="DescriptorValidationException.cs" t="Include" />
+          <e p="EnumDescriptor.cs" t="Include" />
+          <e p="EnumValueDescriptor.cs" t="Include" />
+          <e p="ExtensionAccessor.cs" t="Include" />
+          <e p="ExtensionCollection.cs" t="Include" />
+          <e p="FieldAccessorBase.cs" t="Include" />
+          <e p="FieldDescriptor.cs" t="Include" />
+          <e p="FieldType.cs" t="Include" />
+          <e p="FileDescriptor.cs" t="Include" />
+          <e p="GeneratedClrTypeInfo.cs" t="Include" />
+          <e p="IDescriptor.cs" t="Include" />
+          <e p="IFieldAccessor.cs" t="Include" />
+          <e p="MapFieldAccessor.cs" t="Include" />
+          <e p="MessageDescriptor.cs" t="Include" />
+          <e p="MethodDescriptor.cs" t="Include" />
+          <e p="OneofAccessor.cs" t="Include" />
+          <e p="OneofDescriptor.cs" t="Include" />
+          <e p="OriginalNameAttribute.cs" t="Include" />
+          <e p="PackageDescriptor.cs" t="Include" />
+          <e p="ReflectionUtil.cs" t="Include" />
+          <e p="RepeatedFieldAccessor.cs" t="Include" />
+          <e p="ServiceDescriptor.cs" t="Include" />
+          <e p="SingleFieldAccessor.cs" t="Include" />
+          <e p="TypeRegistry.cs" t="Include" />
+        </e>
+        <e p="UnknownField.cs" t="Include" />
+        <e p="UnknownFieldSet.cs" t="Include" />
+        <e p="WellKnownTypes" t="Include">
+          <e p="Any.cs" t="Include" />
+          <e p="AnyPartial.cs" t="Include" />
+          <e p="Api.cs" t="Include" />
+          <e p="Duration.cs" t="Include" />
+          <e p="DurationPartial.cs" t="Include" />
+          <e p="Empty.cs" t="Include" />
+          <e p="FieldMask.cs" t="Include" />
+          <e p="FieldMaskPartial.cs" t="Include" />
+          <e p="SourceContext.cs" t="Include" />
+          <e p="Struct.cs" t="Include" />
+          <e p="TimeExtensions.cs" t="Include" />
+          <e p="Timestamp.cs" t="Include" />
+          <e p="TimestampPartial.cs" t="Include" />
+          <e p="Type.cs" t="Include" />
+          <e p="ValuePartial.cs" t="Include" />
+          <e p="Wrappers.cs" t="Include" />
+          <e p="WrappersPartial.cs" t="Include" />
+        </e>
+        <e p="WireFormat.cs" t="Include" />
+      </e>
+      <e p="Google.Protobuf.Benchmarks" t="Include">
+        <e p="BenchmarkMessage1Proto3.cs" t="Include" />
+        <e p="Benchmarks.cs" t="Include" />
+        <e p="obj" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Google.Protobuf.Benchmarks.AssemblyInfo.cs" t="Include" />
+              <e p="Google.Protobuf.Benchmarks.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Google.Protobuf.Benchmarks.assets.cache" t="Include" />
+              <e p="Google.Protobuf.Benchmarks.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="Google.Protobuf.Benchmarks.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="Google.Protobuf.Benchmarks.csprojAssemblyReference.cache" t="Include" />
+            </e>
+          </e>
+          <e p="Google.Protobuf.Benchmarks.csproj.nuget.cache" t="Include" />
+          <e p="Google.Protobuf.Benchmarks.csproj.nuget.dgspec.json" t="Include" />
+          <e p="Google.Protobuf.Benchmarks.csproj.nuget.g.props" t="Include" />
+          <e p="Google.Protobuf.Benchmarks.csproj.nuget.g.targets" t="Include" />
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="SerializationBenchmark.cs" t="Include" />
+        <e p="SerializationConfig.cs" t="Include" />
+        <e p="wrapper_benchmark_messages.proto" t="Include" />
+        <e p="WrapperBenchmark.cs" t="Include" />
+        <e p="WrapperBenchmarkMessages.cs" t="Include" />
+      </e>
+      <e p="Google.Protobuf.Conformance" t="Include">
+        <e p="bin" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Google.Protobuf.Conformance.deps.json" t="Include" />
+              <e p="Google.Protobuf.Conformance.dll" t="Include" />
+              <e p="Google.Protobuf.Conformance.pdb" t="Include" />
+              <e p="Google.Protobuf.Conformance.runtimeconfig.dev.json" t="Include" />
+              <e p="Google.Protobuf.Conformance.runtimeconfig.json" t="Include" />
+              <e p="Google.Protobuf.dll" t="Include" />
+              <e p="Google.Protobuf.pdb" t="Include" />
+              <e p="Google.Protobuf.Test.dll" t="Include" />
+              <e p="Google.Protobuf.Test.pdb" t="Include" />
+              <e p="Google.Protobuf.Test.TestProtos.dll" t="Include" />
+              <e p="Google.Protobuf.Test.TestProtos.pdb" t="Include" />
+              <e p="Google.Protobuf.xml" t="Include" />
+              <e p="Mono.Cecil.dll" t="Include" />
+              <e p="nunit.engine.netstandard.dll" t="Include" />
+              <e p="NUnit3.TestAdapter.dll" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Conformance.cs" t="Include" />
+        <e p="obj" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Google.Protobuf.Conformance.AssemblyInfo.cs" t="Include" />
+              <e p="Google.Protobuf.Conformance.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Google.Protobuf.Conformance.assets.cache" t="Include" />
+              <e p="Google.Protobuf.Conformance.csproj.CopyComplete" t="Include" />
+              <e p="Google.Protobuf.Conformance.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="Google.Protobuf.Conformance.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="Google.Protobuf.Conformance.csprojAssemblyReference.cache" t="Include" />
+              <e p="Google.Protobuf.Conformance.dll" t="Include" />
+              <e p="Google.Protobuf.Conformance.pdb" t="Include" />
+            </e>
+          </e>
+          <e p="Google.Protobuf.Conformance.csproj.nuget.cache" t="Include" />
+          <e p="Google.Protobuf.Conformance.csproj.nuget.dgspec.json" t="Include" />
+          <e p="Google.Protobuf.Conformance.csproj.nuget.g.props" t="Include" />
+          <e p="Google.Protobuf.Conformance.csproj.nuget.g.targets" t="Include" />
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Google.Protobuf.JsonDump" t="Include">
+        <e p="bin" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Google.Protobuf.dll" t="Include" />
+              <e p="Google.Protobuf.JsonDump.deps.json" t="Include" />
+              <e p="Google.Protobuf.JsonDump.dll" t="Include" />
+              <e p="Google.Protobuf.JsonDump.pdb" t="Include" />
+              <e p="Google.Protobuf.JsonDump.runtimeconfig.dev.json" t="Include" />
+              <e p="Google.Protobuf.JsonDump.runtimeconfig.json" t="Include" />
+              <e p="Google.Protobuf.pdb" t="Include" />
+              <e p="Google.Protobuf.xml" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="obj" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Google.Protobuf.JsonDump.AssemblyInfo.cs" t="Include" />
+              <e p="Google.Protobuf.JsonDump.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Google.Protobuf.JsonDump.assets.cache" t="Include" />
+              <e p="Google.Protobuf.JsonDump.csproj.CopyComplete" t="Include" />
+              <e p="Google.Protobuf.JsonDump.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="Google.Protobuf.JsonDump.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="Google.Protobuf.JsonDump.csprojAssemblyReference.cache" t="Include" />
+              <e p="Google.Protobuf.JsonDump.dll" t="Include" />
+              <e p="Google.Protobuf.JsonDump.pdb" t="Include" />
+            </e>
+          </e>
+          <e p="Google.Protobuf.JsonDump.csproj.nuget.cache" t="Include" />
+          <e p="Google.Protobuf.JsonDump.csproj.nuget.dgspec.json" t="Include" />
+          <e p="Google.Protobuf.JsonDump.csproj.nuget.g.props" t="Include" />
+          <e p="Google.Protobuf.JsonDump.csproj.nuget.g.targets" t="Include" />
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="DirectorProtobuf.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="package.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
